@@ -1,0 +1,8 @@
+.sch {
+	border-radius: 20px;
+	border: none;
+	color: var(--primary2-color);
+	background-color: var(--primary-color);
+	width: 20.2%;
+	height: 2.2rem;
+}

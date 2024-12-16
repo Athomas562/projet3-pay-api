@@ -1,0 +1,41 @@
+:root{
+    --h1-font-family: DM Serif Display regular ;
+    --h2-font-family: DM Serif Display regular ;
+    --h3-font-family: DM Serif Display regular ;
+    --body-font-family: Public Sans;
+    --primary-color: #BA4270;
+    --primary2-color: #FBFCFE;
+    --secondary-color:#36536B;
+    --secondary2-color:#1B262F;
+    --secondary3-color:#DA6D97;
+    --secondary4-color:#6C8294;
+ }
+
+ main {
+   
+	margin-left: 3%;
+}
+
+body{
+    font-family: var( --body-font-family);
+    background-color: var( --primary2-color);
+}
+
+h1 {
+	font-family: var(--h1-font-family );
+	color: var(--secondary-color);
+}
+
+h2 {
+    font-family: var( --h2-font-family);
+	color: var(--secondary-color);
+}
+
+h3 {
+    font-family: var( --h3-font-family);
+	color: var(--secondary-color);
+}
+
+p {
+	color: var( --secondary4-color);
+}
