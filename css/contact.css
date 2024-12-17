@@ -1,0 +1,83 @@
+.pay0 {
+    height: 3rem;
+	margin-left: 25px;
+}
+
+.pay1 {
+    height: 1.5rem;
+    margin-top: 20px;
+	margin-left: 180px;
+}
+
+.h2 {
+    margin-top: 35px;
+	display: flex;
+	text-align: center;
+	margin-left: 107px;
+	width: 155%;
+    font-size: xx-large;
+}
+
+.h3{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-size: xx-large;
+    width: 162%;
+}
+
+.ht{
+    margin-left: 160px;
+    width: 130%;
+    display: flex;
+    font-size: xx-large;
+}
+
+.tt2{
+    
+    background-color: var(--primary2-color);
+    color: var(--secondary2-color);
+}
+
+.butt {
+    background-color: var(--primary2-color);
+    border: 1px solid var(--secondary2-color);
+    color:var(--secondary2-color) ;
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-left: 80px;
+    font-size: x-large;
+	width: 80%;
+    height: 55px;
+}
+
+.form {
+	display: flex;
+	background-color: transparent;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	margin-top: 15px;
+    font-size: x-large;
+	flex-direction: column;
+	margin-left: 40px;
+	width: 130%;
+	height: 23rem;
+	gap: 10px;
+}
+
+.check{
+   display: flex;
+   flex-direction: row;
+   text-align: start;
+   margin-top: 20px;
+   margin-left: 70px;
+   width: 195%;
+   font-size: x-large;
+   gap: 20px;
+}
+
+#check{
+   width: 20%;
+}
