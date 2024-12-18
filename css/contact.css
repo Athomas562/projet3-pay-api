@@ -1,3 +1,11 @@
+.carre{
+    position: absolute;
+    border-radius: 0% 100% 0% 100% / 0% 0% 100% 100% ;
+    margin-left: 150px;
+    width: 50%;
+    background-color: var(--secondary4-color);
+}
+
 .pay0 {
     height: 3rem;
 	margin-left: 25px;
@@ -13,29 +21,42 @@
     margin-top: 35px;
 	display: flex;
 	text-align: center;
-	margin-left: 107px;
+	margin-left: 70px;
 	width: 155%;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .h3{
-    display: flex;
+    display: flex;  
     text-align: center;
     margin-top: 20px;
-    margin-left: 115px;
-    font-size: xx-large;
+    margin-left: 65px;
+    font-size: x-large;
     width: 162%;
 }
 
 .ht{
-    margin-left: 160px;
+    margin-top: 30px;
+    margin-left: 142px;
     width: 130%;
     display: flex;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.tt1{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 
 .tt2{
-    
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
     background-color: var(--primary2-color);
     color: var(--secondary2-color);
 }
@@ -46,10 +67,10 @@
     color:var(--secondary2-color) ;
     margin-top: 15px;
     border-radius: 30px;
-    margin-left: 80px;
+    margin-left: 60px;
     font-size: x-large;
 	width: 80%;
-    height: 55px;
+    height: 40px;
 }
 
 .form {
@@ -59,12 +80,24 @@
 	border-left-style: hidden;
 	border-right-style: hidden;
 	margin-top: 15px;
-    font-size: x-large;
+    font-size: large;
 	flex-direction: column;
-	margin-left: 40px;
+	margin-left: 35px;
 	width: 130%;
-	height: 23rem;
+	height: 23em;
 	gap: 10px;
+}
+
+.li{
+    display: none;
+}
+
+.lis{
+    display: none;
+}
+
+.lit{
+    display: none;
 }
 
 .check{
@@ -72,12 +105,106 @@
    flex-direction: row;
    text-align: start;
    margin-top: 20px;
-   margin-left: 70px;
+   margin-left: 69px;
    width: 195%;
-   font-size: x-large;
+   font-size: large;
    gap: 20px;
 }
 
 #check{
-   width: 20%;
+   width: 13%;
 }
+
+.in {
+    display: flex;
+    flex-direction: column;
+    margin-left: 128px; 
+    width: 100%;
+    gap: 10px;
+  }
+
+  .in2{
+    border: none;
+    width: 128%;
+    border-radius: 20px;
+    height: 2.5rem;
+    margin-left: -25px;
+}
+
+.sch2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130%;
+    height: 2.5rem;
+    background-color: var(--primary-color);
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    border: none;
+    color: var(--primary2-color);
+    margin-left: -27px;
+  }
+
+  .rectangle2{
+    width: 225%;
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: var(--secondary2-color);
+  }
+
+  .liste {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+	margin-top: -8px;
+    margin-left: 110px;
+    margin-top: 10px;
+    text-decoration: underline var(--secondary2-color);
+    margin-bottom: 5%;
+    width: 50%;
+    border: none;
+    color: var(--primary2-color);
+    background-color: var(--secondary2-color);
+  }
+
+  .pay{
+    margin-left: 140px;
+  }
+
+  .facebook{
+    margin-left: 76px;
+  }
+
+  @media screen and (min-width:380px) {
+    .li{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .lit{
+        display: flex;
+        flex-direction: row;
+        margin-top: -23px;
+        margin-left: 130px;
+    }
+
+    .lis{
+        display: flex;
+        flex-direction: row;
+        margin-left: 230px;
+        margin-top: -23.5px;
+    }
+
+    .pay0 {
+        margin-left: 210px;
+       height: 2.5rem;
+    }
+
+    .pay1 {
+      display: none; 
+    }
+    
+  }
+  
